@@ -1,0 +1,22 @@
+{
+  "watch": [
+    "server.js",
+    "routes/",
+    "controllers/",
+    "models/",
+    "config/"
+  ],
+  "ext": "js,json",
+  "ignore": [
+    "node_modules/",
+    "public/",
+    "*.test.js"
+  ],
+  "execMap": {
+    "js": "node"
+  },
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "delay": "1000"
+}
