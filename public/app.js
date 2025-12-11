@@ -1,5 +1,5 @@
 // API Base URL
-const API_BASE_URL = '/api';
+const API_BASE_URL = 'https://movie-catalog-app-ve4d.onrender.com';
 
 // State management
 let movies = [];
